@@ -1,6 +1,6 @@
 ﻿Console.Write(" Task = ");
 
-switch (Console.ReadLine())  {
+switch (Console.ReadLine()) {
   case "1":
     int baseValue;
     int powerValue;
@@ -13,8 +13,7 @@ switch (Console.ReadLine())  {
 
     calculationResult = 1;
 
-    for (int loopCounter = 0; loopCounter < powerValue; ++loopCounter)
-    {
+    for (int loopCounter = 0; loopCounter < powerValue; ++loopCounter) {
       calculationResult *= baseValue;
     }
     
