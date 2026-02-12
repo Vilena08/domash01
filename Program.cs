@@ -4,13 +4,13 @@ switch (Console.ReadLine())  {
   case "1":
     int baseValue;
     int powerValue;
+    int calculationResult;
 
     Console.Write(" Base number = ");
     baseValue = Convert.ToInt32(Console.ReadLine());
     Console.Write(" Exponent = ");
     powerValue = Convert.ToInt32(Console.ReadLine());
 
-    int calculationResult;
     calculationResult = 1;
 
     for (int loopCounter = 0; loopCounter < powerValue; ++loopCounter)
@@ -23,7 +23,8 @@ switch (Console.ReadLine())  {
     break;
 
   case "2":
-    string userInput, transformedNumber;
+    string userInput;
+    string transformedNumber;
     char middleDigit;
 
     Console.Write(" Number(>= 100) = ");
